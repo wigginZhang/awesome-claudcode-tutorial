@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { generateSidebar } from './utils/sidebar'
+import { generateSidebar, generateChapterSidebar } from './utils/sidebar'
 
 export default defineConfig({
   title: 'Claude Code 教程',
@@ -39,15 +39,19 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/zh/' },
-      { text: '教程', link: '/zh/articles/' },
+      { text: '文章教程', link: '/zh/articles/' },
+      { text: '课程章节', link: '/zh/chapters/' },
       { text: 'GitHub', link: 'https://github.com/xianyu110/claudecode-tutorial' }
     ],
 
     // 侧边栏 - 将由脚本自动生成
     sidebar: {
-      '/zh/': generateSidebar('zh'),
-      '/tw/': generateSidebar('tw'),
-      '/en/': generateSidebar('en')
+      '/zh/articles/': generateSidebar('zh'),
+      '/zh/chapters/': generateChapterSidebar('zh'),
+      '/tw/articles/': generateSidebar('tw'),
+      '/tw/chapters/': generateChapterSidebar('tw'),
+      '/en/articles/': generateSidebar('en'),
+      '/en/chapters/': generateChapterSidebar('en')
     },
 
     // 社交链接
@@ -162,11 +166,13 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/zh/' },
-          { text: '教程', link: '/zh/articles/' },
+          { text: '文章教程', link: '/zh/articles/' },
+          { text: '课程章节', link: '/zh/chapters/' },
           { text: 'GitHub', link: 'https://github.com/xianyu110/claudecode-tutorial' }
         ],
         sidebar: {
-          '/zh/': generateSidebar('zh')
+          '/zh/articles/': generateSidebar('zh'),
+          '/zh/chapters/': generateChapterSidebar('zh')
         }
       }
     },
@@ -177,11 +183,13 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首頁', link: '/tw/' },
-          { text: '教程', link: '/tw/articles/' },
+          { text: '文章教程', link: '/tw/articles/' },
+          { text: '課程章節', link: '/tw/chapters/' },
           { text: 'GitHub', link: 'https://github.com/xianyu110/claudecode-tutorial' }
         ],
         sidebar: {
-          '/tw/': generateSidebar('tw')
+          '/tw/articles/': generateSidebar('tw'),
+          '/tw/chapters/': generateChapterSidebar('tw')
         },
         editLink: {
           pattern: 'https://github.com/xianyu110/claudecode-tutorial/edit/main/docs/:path',
@@ -211,11 +219,13 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Tutorial', link: '/en/articles/' },
+          { text: 'Article Tutorial', link: '/en/articles/' },
+          { text: 'Chapters', link: '/en/chapters/' },
           { text: 'GitHub', link: 'https://github.com/xianyu110/claudecode-tutorial' }
         ],
         sidebar: {
-          '/en/': generateSidebar('en')
+          '/en/articles/': generateSidebar('en'),
+          '/en/chapters/': generateChapterSidebar('en')
         },
         editLink: {
           pattern: 'https://github.com/xianyu110/claudecode-tutorial/edit/main/docs/:path',

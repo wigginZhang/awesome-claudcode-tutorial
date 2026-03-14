@@ -9,7 +9,107 @@ interface SidebarItem {
 }
 
 /**
- * 生成侧边栏配置
+ * 生成章节侧边栏配置
+ * @param locale 语言代码 ('zh', 'tw' 或 'en')
+ */
+export function generateChapterSidebar(locale: string): SidebarItem[] {
+  const chaptersDir = path.resolve(__dirname, `../../${locale}/chapters`)
+
+  // 如果目录不存在，返回空数组
+  if (!fs.existsSync(chaptersDir)) {
+    return []
+  }
+
+  // 读取所有markdown文件
+  const files = fs.readdirSync(chaptersDir)
+    .filter(file => file.endsWith('.md'))
+    .sort()
+
+  // 按章节分组
+  const sections = new Map<number, SidebarItem[]>()
+
+  files.forEach(file => {
+    // 解析文件名: 01-installation.md, 21-workflows-best-practices.md
+    const match = file.match(/^(\d+)-(.+)\.md$/)
+    if (!match) return
+
+    const [, chapterNum, slug] = match
+    const sectionNum = Math.ceil(parseInt(chapterNum) / 5) // 每5章为一个部分
+
+    if (!sections.has(sectionNum)) {
+      sections.set(sectionNum, [])
+    }
+
+    // 读取文件标题
+    const filePath = path.join(chaptersDir, file)
+    const content = fs.readFileSync(filePath, 'utf-8')
+    const titleMatch = content.match(/^#\s+(.+)$/m)
+    const title = titleMatch ? titleMatch[1] : slug
+
+    sections.get(sectionNum)!.push({
+      text: title,
+      link: `/${locale}/chapters/${file.replace('.md', '')}`
+    })
+  })
+
+  // 转换为VitePress侧边栏格式
+  const sidebar: SidebarItem[] = []
+
+  // 部分标题映射
+  const sectionTitles: Record<number, { zh: string; tw: string; en: string }> = {
+    1: {
+      zh: '第一部分：环境搭建与基础交互',
+      tw: '第一部分：環境搭建與基礎交互',
+      en: 'Part 1: Setup & Basic Interaction'
+    },
+    2: {
+      zh: '第二部分：复杂任务处理与终端控制',
+      tw: '第二部分：複雜任務處理與終端控制',
+      en: 'Part 2: Complex Tasks & Terminal Control'
+    },
+    3: {
+      zh: '第三部分：多模态与上下文管理',
+      tw: '第三部分：多模態與上下文管理',
+      en: 'Part 3: Multimodal & Context Management'
+    },
+    4: {
+      zh: '第四部分：高级功能扩展与定制',
+      tw: '第四部分：高級功能擴展與定制',
+      en: 'Part 4: Advanced Features & Customization'
+    },
+    5: {
+      zh: '第五部分：企业级应用与最佳实践 ⭐',
+      tw: '第五部分：企業級應用與最佳實踐 ⭐',
+      en: 'Part 5: Enterprise Applications & Best Practices ⭐'
+    }
+  }
+
+  Array.from(sections.keys())
+    .sort((a, b) => a - b)
+    .forEach(section => {
+      const title = sectionTitles[section]
+      let sectionTitle: string
+
+      if (locale === 'zh') {
+        sectionTitle = title?.zh || `第${section}部分`
+      } else if (locale === 'tw') {
+        sectionTitle = title?.tw || `第${section}部分`
+      } else {
+        sectionTitle = title?.en || `Part ${section}`
+      }
+
+      sidebar.push({
+        text: sectionTitle,
+        items: sections.get(section)!,
+        collapsed: section !== 5 // 第5部分默认展开
+      })
+    })
+
+  return sidebar
+}
+
+/**
+ * 生成文章侧边栏配置
  * @param locale 语言代码 ('zh' 或 'en')
  */
 export function generateSidebar(locale: string): SidebarItem[] {
