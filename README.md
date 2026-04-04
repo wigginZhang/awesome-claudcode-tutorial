@@ -4,7 +4,7 @@
 
 [![在线阅读](https://img.shields.io/badge/在线阅读-立即访问-blue?logo=github)](https://xianyu110.github.io/claudecode-tutorial/)
 [![文章数量](https://img.shields.io/badge/文章-212篇-green.svg)](https://xianyu110.github.io/claudecode-tutorial/)
-[![结构化章节](https://img.shields.io/badge/章节-25章-blue.svg)](https://github.com/xianyu110/awesome-claudcode-tutorial#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95)
+[![结构化章节](https://img.shields.io/badge/章节-29章-blue.svg)](https://github.com/xianyu110/awesome-claudcode-tutorial#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95)
 [![持续更新](https://img.shields.io/badge/状态-持续更新-orange.svg)](https://github.com/xianyu110/awesome-claudcode-tutorial)
 
 > ⭐ 如果这个项目对你有帮助，请给我们一个 Star！
@@ -14,7 +14,7 @@
 这是一套系统化的 Claude Code 学习教程，提供 **两种学习方式**：
 
 1. **📚 文章式学习** - 212+ 篇详细文章，适合查阅和深入学习特定主题
-2. **🎓 课程式学习** - 25 个结构化章节，适合系统学习从入门到精通
+2. **🎓 课程式学习** - 29 个结构化章节，适合系统学习从入门到精通
 
 无论你是 AI 编程��手，还是想深入掌握 Claude Code 的开发者，都能在这里找到适合的学习路径。
 
@@ -68,7 +68,7 @@
 **适合人群**：希望系统学习、循序渐进的初学者和进阶者
 
 - 📂 **位置**：[docs/zh/chapters/](docs/zh/chapters/)
-- 📊 **数量**：25 个章节
+- 📊 **数量**：29 个章节
 - 🎯 **特点**：结构清晰、循序渐进、实战导向
 - 📖 **本地阅读**：克隆仓库后直接查看
 
@@ -108,6 +108,12 @@
 - [23. 远程控制与会话](docs/zh/chapters/23-remote-control-sessions.md) - 多设备协作、云会话
 - [24. 监控与可观测性](docs/zh/chapters/24-monitoring-observability.md) - OpenTelemetry、指标、日志
 - [25. CI/CD 集成](docs/zh/chapters/25-ci-cd-integration.md) - GitHub Actions、自动化流水线
+
+#### 第六部分：高级能力与多 Agent 协作 ⭐ 新增
+- [26. Computer Use（屏幕操作）](docs/zh/chapters/26-computer-use.md) - 屏幕识别、GUI 自动化、端到端测试
+- [27. Voice Mode（语音模式）](docs/zh/chapters/27-voice-mode.md) - 语音交互、键盘配合、多语言支持
+- [28. 多 Agent 协作](docs/zh/chapters/28-multi-agent-collaboration.md) - Worktrees、Agent Teams、Coordinator Mode
+- [29. 高级命令与反模式](docs/zh/chapters/29-advanced-commands.md) - /btw、/compact、Slash Commands、反模式
 
 ## 🌟 推荐学习路径
 
@@ -157,17 +163,17 @@
 
 | 指标 | 文章版 | 章节版 |
 |------|--------|--------|
-| 内容数量 | 212+ 篇文章 | 25 个章节 |
+| 内容数量 | 212+ 篇文章 | 29 个章节 |
 | 代码示例 | 300+ | 150+ |
 | 实战案例 | 100+ | 80+ |
-| 总字数 | 20万+ | 15万+ |
+| 总字数 | 20万+ | 18万+ |
 | 覆盖范围 | 全面细致 | 系统结构化 |
 
 ## 🎯 教程特色
 
 ### 📚 系统完整
 - **10大主题模块**：覆盖 Claude Code 所有核心知识点
-- **212篇文章 + 25章节**：每个主题都有详细讲解
+- **212篇文章 + 29章节**：每个主题都有详细讲解
 - **循序渐进**：从基础概念到高级应用，学习路径清晰
 
 ### 💡 实战导向

@@ -565,6 +565,80 @@ claude skills publish my-skill
 git push origin main
 ```
 
+
+## 📝 Slash Commands（.claude/commands/）
+
+### 什么是 Slash Commands？
+
+除了 Skills，Claude Code 还支持一种更轻量的自定义命令 —— Slash Commands。
+
+```
+.claude/
+├── commands/
+│   ├── review.md        # → /project:review
+│   ├── deploy.md        # → /project:deploy
+│   └── test-fix.md      # → /project:test-fix
+└── skills/
+    └── ...              # → Skills（更复杂的工作流）
+```
+
+### 创建 Slash Command
+
+```markdown
+<!-- .claude/commands/review.md -->
+审查当前分支的所有变更，重点关注安全漏洞、性能问题和代码风格。
+输出结构化的审查报告。
+```
+
+使用：
+
+```
+你: /project:review
+→ Claude 读取 review.md 的指令并执行
+```
+
+### 内联 Bash 脚本预计算
+
+Slash Commands 支持 Bash 脚本预计算：
+
+```markdown
+<!-- .claude/commands/pr-status.md -->
+当前 PR 状态：
+\`\`\`bash
+gh pr view --json title,state,additions,deletions,reviewDecision
+\`\`\`
+请根据以上信息分析 PR 进展。
+```
+
+Claude 会先执行 Bash 命令获取动态数据，然后根据数据执行后续指令。
+
+## 🤔 Skills vs Commands 选择指南
+
+| 特性 | Slash Commands | Skills |
+|------|---------------|--------|
+| 创建速度 | 快（一个 Markdown 文件） | 慢（多个文件） |
+| 复杂度 | 简单指令 | 多步骤工作流 |
+| 参数 | 无结构化参数 | 支持结构化参数 |
+| 条件逻辑 | 纯文本 | 可编程 |
+| 分享 | Git 提交即可 | 可导出导入 |
+| Bash 预计算 | ✅ 支持 | ✅ 支持 |
+
+### 选择原则
+
+```
+用 Slash Commands：
+→ 简单的、一次性的指令
+→ 不需要参数的命令
+→ 快速创建和使用
+→ 主要由文本指令组成
+
+用 Skills：
+→ 复杂的多步骤工作流
+→ 需要参数化配置
+→ 需要条件逻辑和错误处理
+→ 需要跨项目复用和分享
+```
+
 ## 🔗 技能与 SubAgent 的区别
 
 | 特性 | Skill | SubAgent |

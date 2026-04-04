@@ -374,6 +374,77 @@ Performance Agent: 性能优化
 Accessibility Agent: 可访问性检查
 ```
 
+
+## 🤝 Agent Teams
+
+### 什么是 Agent Teams？
+
+Agent Teams 是多个 Claude Code 会话互相通信和协调的高级工作模式，比单个 SubAgent 更强大。
+
+```
+单个 SubAgent：
+主 Agent → SubAgent → 返回结果（一对一）
+
+Agent Teams：
+Writer Agent ←→ Reviewer Agent ←→ Tester Agent
+（多对多关系，互相通信协调）
+```
+
+### Writer/Reviewer 模式
+
+```
+场景：开发一个新功能
+
+Writer Agent（写代码）:
+→ 编写功能代码
+→ 发送给 Reviewer
+
+Reviewer Agent（审代码）:
+→ 审查代码质量
+→ 提出修改建议
+→ 发回给 Writer
+
+→ 循环迭代直到质量达标
+```
+
+### 测试驱动模式（TDD）
+
+```
+Tester Agent:
+→ 先写测试用例（测试先行）
+
+Writer Agent:
+→ 实现代码让测试通过
+
+Reviewer Agent:
+→ 审查实现质量
+
+→ 测试保障代码质量
+```
+
+### Git Worktrees 作为并行基础设施
+
+Agent Teams 通常配合 Git Worktrees 使用，确保每个 Agent 在独立的���码副本中工作：
+
+```
+my-project/                ← 主分支
+├── .claude/worktrees/
+│   ├── writer/            ← Writer Agent 的工作目录
+│   ├── reviewer/          ← Reviewer Agent 的工作目录
+│   └── tester/            ← Tester Agent 的工作目录
+
+每个 Agent 在独立的 worktree 中工作
+→ 不会互相冲突
+→ 完成后合并分支即可
+```
+
+```bash
+# Claude Code 可以自动创建 worktree
+claude --worktree
+```
+
+💡 **更详细的多 Agent 协作内容参见 [28. 多 Agent 协作](./28-multi-agent-collaboration.md)**
+
 ## 💡 高级用法
 
 ### 动态创建 Agent

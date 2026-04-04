@@ -98,6 +98,44 @@ claude
 
 👉 **[claude.ai/code](https://claude.ai/code)**
 
+
+## 💰 付费方案
+
+Claude Code 需要订阅才能使用，提供以下方案：
+
+| 方案 | 价格 | 适用场景 | 特点 |
+|------|------|----------|------|
+| **Claude Pro** | $20/月 | 个人开发者 | 基础用量，适合日常开发 |
+| **Claude Max 5x** | $100/月 | 重度使用者 | 5 倍用量，大型项目 |
+| **Claude Max 20x** | $200/月 | 专业团队/企业 | 20 倍用量，团队协作 |
+
+💡 **提示**: Max 方案提供更多使用量，适合频繁使用 Claude Code 的开发者。不同方案的用量限制可能会随时间调整，请参考官方定价页面获取最新信息。
+
+## 🏢 ��业 API 认证
+
+除了个人账户登录，企业用户还可以通过 Anthropic Console 进行认证：
+
+```bash
+# 使用 Console API Key 认证
+claude auth login --console
+```
+
+**适用场景：**
+- 企业已有 Anthropic API 账户
+- 需要通过 API Key 管理访问权限
+- 使用企业付费方案
+- 在 CI/CD 环境中自动化使用
+
+## 🖥️ 五种使用环境对比
+
+| 环境 | 安装方式 | 功能完整度 | 适合场景 |
+|------|----------|------------|----------|
+| **Terminal CLI** | `curl` / `brew` / `winget` | ⭐⭐⭐⭐⭐ 全功能 | 开发者日常使用 |
+| **VS Code** | 扩展市场安装 | ⭐⭐⭐⭐⭐ 全功能 | 编辑器内开发 |
+| **Desktop App** | claude.ai/download | ⭐⭐⭐⭐ | 独立使用 |
+| **Web** | claude.ai/code | ⭐⭐⭐⭐ | 无需安装 |
+| **JetBrains** | 插件市场安装 | ⭐⭐⭐⭐ | Java/Kotlin 开发 |
+
 ## ⚠️ 常见问题
 
 ### Q: Windows 上推荐使用什么环境？

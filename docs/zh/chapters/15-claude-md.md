@@ -636,6 +636,190 @@ turbo run test --clearCache
 - [ ] 完善测试覆盖率
 ```
 
+
+## 🛡️ 护栏而非手册
+
+### 核心理念
+
+Claude Code 的负责人 Boris 提出了一个关键原则：
+
+> **CLAUDE.md 应该是"护栏"（guardrails），而不是"手册"（manual）。**
+
+```
+❌ 手册式写法（不推荐）：
+"项目使用 React，组件放在 src/components/ 下，
+状态管理用 Redux，API 请求用 axios，
+测试用 Jest，构建用 Webpack..."
+
+→ 这是文档应该做的事
+→ 太长，浪费上下文 token
+→ 大部分信息 Claude 可以自己发现
+
+✅ 护栏式写法（推荐）：
+"不要修改 src/legacy/ 下的文件，
+那是即将废弃的旧代码。
+所有新 API 必须使用 Zod 验证。
+测试覆盖率要求 80% 以上。"
+
+→ 只写 Claude 自己无法知道的约束
+→ 短小精悍（Boris 的 CLAUDE.md 约 2500 tokens）
+→ 防止 Claude 犯错
+```
+
+### Boris 的 CLAUDE.md 示例
+
+```markdown
+# 项目规范
+
+## 约束
+- 不要修改 src/legacy/ 目录，那是废弃代码
+- 新的 API 端点必须使用 Zod 进行输入验证
+- 数据库迁移只能使用 Prisma Migrate
+- 不要安装新的 npm 包，除非我明确要求
+
+## 风格
+- 使用函数式组件和 hooks
+- 优先使用 TypeScript 接口而非 type
+- 错误处理使用 Result 模式，不要 throw
+
+## 测试
+- 测试覆盖率要求 80%+
+- 使用 Vitest 而不是 Jest
+- E2E 测试使用 Playwright
+```
+
+💡 **约 2500 tokens，只包含关键的约束和偏好。**
+
+## 🧠 Auto Memory 自动记忆系统
+
+### 什么是 Auto Memory？
+
+Claude Code 有一个内置的自动记忆系统，可以跨会话保存和回忆信息。
+
+```
+记忆位置：
+~/.claude/projects/<项目路径>/memory/
+
+目录结构：
+~/.claude/projects/my-app/memory/
+├── MEMORY.md          # 记忆索引
+├── user_role.md       # 用户画像
+├── feedback_xxx.md    # 用户反馈记录
+├── project_xxx.md     # 项目信息
+└── reference_xxx.md   # 外部资源引用
+```
+
+### Auto Memory 的工作方式
+
+```
+会话中：
+你: "我喜欢用函数式��程风格"
+→ Claude 自动保存到 memory/user_style.md
+
+下次会话：
+Claude: [自动读取 memory/]
+→ 知道你偏好函数式风格
+→ 自动按你的偏好编写代码
+```
+
+### CLAUDE.md vs Auto Memory
+
+| 特性 | CLAUDE.md | Auto Memory |
+|------|-----------|-------------|
+| 存储位置 | 项目根目录 | `~/.claude/projects/` |
+| 创建方式 | 手动编写 | Claude 自动创建 |
+| 提交到 Git | ✅ 可以 | ❌ 不需要 |
+| 团队共享 | ✅ 团队可见 | ❌ 仅个人 |
+| 内容类型 | 项目规范、约束 | 个人偏好、反馈 |
+| 优先级 | 高（项目规则） | 中（个人偏好） |
+
+### 迭代飞轮：持续降低错误率
+
+```
+Claude 犯了一个错误
+    ↓
+你纠正：不要这样做，应该那样做
+    ↓
+Claude 保存到 Auto Memory
+    ↓
+下次不再犯同样的错误
+    ↓
+错误率持续降低 📉
+```
+
+### Shrivu Shankar 的反模式建议
+
+Claude Code 团队成员 Shrivu Shankar 提出了几个重要的反模式：
+
+```
+❌ 反模式 1：@引用大文档
+"参考这个 200 页的设计文档" → @design-doc.pdf
+→ 大文档消耗大量上下文
+→ Claude 反而更难找到关键信息
+
+✅ 正确做法：
+从文档中提取关键部分
+或用几句话总结要点
+
+❌ 反模式 2：只���"永远不要做 X"
+"永远不要删除文件"
+→ 没有说明为什么
+→ Claude 可能在不同上下文中误判
+
+✅ 正确做���：
+"不要删除 src/data/ 下的文件，因为它们是
+手动维护的种子数据，删除后需要从生产环境
+重新导出"
+→ 说明原因和背景
+→ Claude 能更好地判断
+```
+
+### 该写/不该写什么
+
+| 该写 ✅ | 不该写 ❌ |
+|---------|----------|
+| Claude 自己无法发现的约束 | 项目的基本结构（它能自己看） |
+| 容易犯的错误和注意事项 | 框架的基本用法（它已经知道） |
+| 项目特有的约定和规范 | 通用的编程最佳实践 |
+| 为什么某个决策这样做 | 大段的代码示例 |
+| 团队的工作流程 | 依赖列表和版本号 |
+
+## 📁 层级结构详解
+
+### CLAUDE.md 的层级
+
+```
+全局级（对所有项目生效）：
+~/.claude/CLAUDE.md
+→ 你的个人偏好
+→ 例如："我喜欢中文注释"
+
+项目级（对当前项目生效）：
+project/CLAUDE.md
+→ 项目规范和约束
+→ 团队共享
+
+子目录级（对特定目录生效）：
+project/src/api/CLAUDE.md
+→ 特定模块的规范
+→ 例如："这个目录下的代码必须使用 Result 模式"
+```
+
+### @引用语法
+
+你可以在 CLAUDE.md 中引用其他文件：
+
+```markdown
+# CLAUDE.md
+
+## 参考
+@docs/architecture.md       # 引用架构文档
+@docs/api-conventions.md    # 引用 API 约定
+@package.json               # 引用 package.json
+```
+
+💡 **注意**：@引用会增加上下文消耗，只引用必要的文件。
+
 ## 🎯 最佳实践
 
 ### ✅ DO - 应该做的
