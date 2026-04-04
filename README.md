@@ -2,8 +2,8 @@
 
 > 📚 最全面的 Claude Code 中文教程 - 从零基础到企业级应用
 
-[![在线阅读](https://img.shields.io/badge/在线阅读-立即访问-blue?logo=github)](https://xianyu110.github.io/claudecode-tutorial/)
-[![文章数量](https://img.shields.io/badge/文章-212篇-green.svg)](https://xianyu110.github.io/claudecode-tutorial/)
+[![在线阅读](https://img.shields.io/badge/在线阅读-立即访问-blue?logo=github)](https://awesome.claude-opus.top/zh/)
+[![文章数量](https://img.shields.io/badge/文章-212+篇-green.svg)](https://awesome.claude-opus.top/zh/)
 [![结构化章节](https://img.shields.io/badge/章节-29章-blue.svg)](https://github.com/xianyu110/awesome-claudcode-tutorial#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95)
 [![持续更新](https://img.shields.io/badge/状态-持续更新-orange.svg)](https://github.com/xianyu110/awesome-claudcode-tutorial)
 
@@ -16,7 +16,7 @@
 1. **📚 文章式学习** - 212+ 篇详细文章，适合查阅和深入学习特定主题
 2. **🎓 课程式学习** - 29 个结构化章节，适合系统学习从入门到精通
 
-无论你是 AI 编程��手，还是想深入掌握 Claude Code 的开发者，都能在这里找到适合的学习路径。
+无论你是 AI 编程新手，还是想深入掌握 Claude Code 的开发者，都能在这里找到适合的学习路径。
 
 ## 🚀 快速开始使用 Claude Code
 
@@ -49,20 +49,24 @@
 **适合人群**：需要快速查阅特定功能或深入某个主题的开发者
 
 - 📂 **位置**：[docs/zh/articles/](docs/zh/articles/)
-- 📊 **数量**：212+ 篇文章
+- 📊 **数量**：207 篇文章
 - 🔍 **特点**：全文搜索、主题分类、细致入微
-- 🌐 **在线阅读**：https://xianyu110.github.io/claudecode-tutorial/
+- 🌐 **在线阅读**：https://awesome.claude-opus.top/zh/
 
 **主要分类：**
-- 入门指南（1-3章）
-- 安装与配置（第2章）
-- 命令系统（第4章，4.1-7.33）
-- 高级交互（第5章）
-- 工具系统（第6章）
-- MCP协议（第7章，11-13）
-- Skills技能（��8章，14-19）
-- 插件开发（第9章，20-22）
-- 企业级应用（第10章，23-34）
+- 入门指南（第1-3章）
+- 安装与配置（第2章，8篇）
+- 命令系统（第4章，5篇）
+- 高级交互（第5章，9篇）
+- 工具系统（第6章，19篇）
+- MCP 协议（第7章，33篇）
+- Skills 技能（第8章，3篇）
+- 多模态与上下文（第9-10章，10篇）
+- MCP 进阶（第11-13章，12篇）
+- 上下文与记忆（第14-15章，8篇）
+- 高级功能扩展（第16-19章，18篇）
+- 插件开发（第20章，5篇）
+- 企业级应用（第21-34章，62篇）
 
 ### 方式二：课程式学习 🎓
 
@@ -91,7 +95,7 @@
 - [09. 版本回滚 (Rewind)](docs/zh/chapters/09-rewind.md)
 - [10. 图片处理](docs/zh/chapters/10-image-processing.md)
 - [11. 安装 MCP Server](docs/zh/chapters/11-mcp-setup.md)
-- [12. 恢复��史会话](docs/zh/chapters/12-resume.md)
+- [12. 恢复历史会话](docs/zh/chapters/12-resume.md)
 - [13. 使用 MCP 工具还原设计稿](docs/zh/chapters/13-mcp-design.md)
 - [14. 上下文压缩与清除](docs/zh/chapters/14-context-management.md)
 - [15. 项目记忆文件](docs/zh/chapters/15-claude-md.md)
@@ -174,7 +178,7 @@
 
 ### 📚 系统完整
 - **10大主题模块**：覆盖 Claude Code 所有核心知识点
-- **212篇文章 + 29章节**：每个主题都有详细讲解
+- **212+ 篇文章 + 29 章节**：每个主题都有详细讲解
 - **循序渐进**：从基础概念到高级应用，学习路径清晰
 
 ### 💡 实战导向
@@ -253,7 +257,7 @@ cd awesome-claudcode-tutorial
 <div align="center">
   <h3>🎯 开始你的 Claude Code 学习之旅</h3>
   <p>
-    <a href="https://xianyu110.github.io/claudecode-tutorial/">📖 在线阅读</a> •
+    <a href="https://awesome.claude-opus.top/zh/">📖 在线阅读</a> •
     <a href="docs/zh/chapters/01-installation.md">📚 章节学习</a> •
     <a href="docs/zh/articles/">🔍 文章查阅</a>
   </p>

@@ -445,4 +445,4 @@ Claude:
 ## 🔗 相关资源
 
 - [Rewind 功能文档](https://code.claude.com/docs/zh-CN/rewind)
-- [会话管理最��实践](https://code.claude.com/docs/zh-CN/sessions)
+- [会话管理最佳实践](https://code.claude.com/docs/zh-CN/sessions)

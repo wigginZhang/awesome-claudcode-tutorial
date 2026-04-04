@@ -104,7 +104,7 @@ claude
 
 **A**: 推荐使用 **WSL (Windows Subsystem for Linux)**，因为它提供最佳的原生兼容性。
 
-### Q: 安��后找不到命令？
+### Q: 安装后找不到命令？
 
 **A**: 确保已将 Claude Code 添加到系统 PATH。重启终端或检查安装路径。
 

@@ -403,7 +403,7 @@ Claude:
 
 3. Modal
    - 类型: Scale + Fade
-   - ��: 0.95
+   - 值: 0.95
    - 到: 1
    - 时长: 250ms
    - 缓动: cubic-bezier(0.4, 0, 0.2, 1)

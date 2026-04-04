@@ -413,7 +413,7 @@ EOF
 ### 1. 多项目协作
 
 ```
-项目 A (API) ←�� 项目 B (Frontend) ←→ 项目 C (Docs)
+项目 A (API) ←→ 项目 B (Frontend) ←→ 项目 C (Docs)
 
 使用 Workspaces：
 

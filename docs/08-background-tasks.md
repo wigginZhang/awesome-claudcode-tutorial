@@ -70,7 +70,7 @@ task_003   python train.py  运行中   12m 45s
 ### 场景 1: 并行测试和构建
 
 ```
-你: 同时运行测试��构建
+你: 同时运行测试和构建
 
 Claude:
 → npm test & [task_001]

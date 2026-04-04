@@ -28,7 +28,7 @@
 - [04. 三种模式详解](./04-modes.md) - 默认/自动/规划模式
 
 ### 第二部分：复杂任务处理与终端控制
-学��如何使用 Claude Code 处理复杂的开发任务。
+学习如何使用 Claude Code 处理复杂的开发任务。
 
 - [05. 执行终端命令](./05-terminal-commands.md) - Bash 工具使用
 - [06. 使用规划模式](./06-plan-mode.md) - Plan Mode 深入讲解
@@ -55,7 +55,7 @@
 - [19. Skills vs SubAgents](./19-skills-vs-subagents.md) - 选择指南
 - [20. Plugin 系统](./20-plugins.md) - 插件开发
 
-### 第五��分：企业级应用与最佳实践 ⭐
+### 第五部分：企业级应用与最佳实践 ⭐
 **新增章节**：面向企业和团队的高级应用场景。
 
 - [21. 工作流与最佳实践](./21-workflows-best-practices.md) - 代码审查、调试、重构工作流
@@ -117,7 +117,7 @@
 
 ## 🔗 相关资源
 
-- [在线阅读网站](https://xianyu110.github.io/claudecode-tutorial/)
+- [在线阅读网站](https://awesome.claude-opus.top/zh/)
 - [GitHub 仓库](https://github.com/xianyu110/awesome-claudcode-tutorial)
 - [Claude Code 官方文档](https://code.claude.com/docs/zh-CN/)
 - [MaynorAI API 服务](https://apipro.maynor1024.live/) - 国内直连

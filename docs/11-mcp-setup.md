@@ -286,7 +286,7 @@ Repository: your-org/your-project
 - Author: @bob
 - Created: 3 days ago
 
-━━━━━━━━━━��━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 需要我帮你审查哪个 PR？
 
@@ -469,7 +469,7 @@ claude mcp test figma
 ```
 测试 Figma MCP Server...
 ✓ 连接成功
-✓ 认证��过
+✓ 认证通过
 ✓ API 可用
 ```
 

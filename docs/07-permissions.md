@@ -117,7 +117,7 @@ Allow? (Y/n)
 #### 5. 网络请求权限 (Network Permissions)
 
 ```bash
-# 默��行为
+# 默认行为
 → 发送 API 请求到 https://api.example.com
 Allow? (Y/n)
 
@@ -442,7 +442,7 @@ cat ~/.claude/logs/latest.log
 
 echo "🔄 正在回滚 Claude Code 的更改..."
 
-# 恢��文件到上一个提交
+# 恢复文件到上一个提交
 git reset --hard HEAD~1
 
 # 清理未跟踪的文件

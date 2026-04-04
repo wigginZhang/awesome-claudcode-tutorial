@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Claude Code 教程"
   text: "🤖 AI编程助手完整学习指南"
-  tagline: 从零基础到高级应用，207篇精选文章助你精通 Claude Code | 国内可用，无需科学上网
+  tagline: 从零基础到高级应用，212+篇精选文章助你精通 Claude Code | 国内可用，无需科学上网
   image:
     src: /logo.svg
     alt: Claude Code
@@ -22,7 +22,7 @@ hero:
 features:
   - icon: 🎓
     title: 系统化学习路径
-    details: 10大章节、207篇精选文章，从基础概念到高级应用，循序渐进掌握 Claude Code 的每一个功能点
+    details: 10大章节、212+篇精选文章，从基础概念到高级应用，循序渐进掌握 Claude Code 的每一个功能点
   - icon: 💡
     title: 核心功能精讲
     details: 深度解析代码生成、智能补全、代码重构、错误诊断等核心功能，配合实战案例即学即用
@@ -40,7 +40,7 @@ features:
     details: 所有教程内容完全开源，持续更新，欢迎贡献和反馈，让我们共同打造最好的中文 Claude Code 教程
 ---
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 20px; border-radius: 12px; margin: 60px 0; text-align: center;">
+<div style="background: linear-gradient(135deg, #155799 0%, #159957 100%); padding: 40px 20px; border-radius: 12px; margin: 60px 0; text-align: center;">
   <h2 style="color: white; font-size: 2em; margin-bottom: 20px;">🎉 MaynorAI API 服务 - 国内可用，无需科学上网</h2>
   <p style="color: rgba(255,255,255,0.95); font-size: 1.2em; margin-bottom: 30px;">为中国开发者提供稳定、高速的 Claude API 服务</p>
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px;">
@@ -57,7 +57,7 @@ features:
       <div style="color: white; font-size: 1.1em; margin-top: 10px;">稳定可靠</div>
     </div>
   </div>
-  <a href="https://apipro.maynor1024.live/" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; font-size: 1.1em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+  <a href="https://apipro.maynor1024.live/" target="_blank" style="display: inline-block; background: white; color: #155799; padding: 15px 40px; border-radius: 25px; font-size: 1.1em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
     🔗 访问 MaynorAI API 服务
   </a>
 </div>
@@ -65,19 +65,19 @@ features:
 ## 📊 教程概览
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin: 40px 0;">
-  <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
-    <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">207</div>
+  <div style="background: linear-gradient(135deg, #155799 0%, #159957 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+    <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">212+</div>
     <div style="font-size: 1.2em; opacity: 0.95;">精选文章</div>
   </div>
-  <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+  <div style="background: linear-gradient(135deg, #159957 0%, #38f9d7 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
     <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">10</div>
     <div style="font-size: 1.2em; opacity: 0.95;">核心章节</div>
   </div>
-  <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+  <div style="background: linear-gradient(135deg, #1e6bb8 0%, #159957 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
     <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">50+</div>
     <div style="font-size: 1.2em; opacity: 0.95;">实战案例</div>
   </div>
-  <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+  <div style="background: linear-gradient(135deg, #155799 0%, #1e6bb8 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
     <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">100%</div>
     <div style="font-size: 1.2em; opacity: 0.95;">开源免费</div>
   </div>
@@ -87,7 +87,7 @@ features:
 
 ### 🌱 第一阶段：入门基础（第1-2章）
 
-<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #667eea; margin: 20px 0;">
+<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #159957; margin: 20px 0;">
 
 **第一章：Claude Code 入门指南**
 - 🎯 核心内容：什么是 Claude Code、安装配置、基础概念、快速上手
@@ -105,7 +105,7 @@ features:
 
 ### 🚀 第二阶段：进阶应用（第3-5章）
 
-<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #43e97b; margin: 20px 0;">
+<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #155799; margin: 20px 0;">
 
 **第三章：高级特性探索**
 - 🎯 核心内容：自定义配置、快捷键设置、工作流优化、性能调优
@@ -129,7 +129,7 @@ features:
 
 ### 🎯 第三阶段：专家进阶（第6-10章）
 
-<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #f5576c; margin: 20px 0;">
+<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #1e6bb8; margin: 20px 0;">
 
 **第六章：插件开发与扩展**
 - 🎯 核心内容：插件架构、API 使用、自定义插件开发、扩展机制
@@ -165,7 +165,7 @@ features:
 
 ## 💡 学习建议
 
-<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 30px; border-radius: 12px; margin: 40px 0;">
+<div style="background: linear-gradient(135deg, #f3f6fa 0%, #e8f5e9 100%); padding: 30px; border-radius: 12px; margin: 40px 0;">
 
 ### 📚 如何高效学习本教程？
 
@@ -194,17 +194,17 @@ features:
 ## 🤝 贡献指南
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 40px 0;">
-  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #667eea;">
+  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #159957;">
     <div style="font-size: 2em; margin-bottom: 15px;">🐛</div>
     <h3 style="margin-bottom: 15px;">发现错误？</h3>
     <p>如果你发现教程中的错误或不准确的内容，欢迎提交 Issue 告诉我们</p>
   </div>
-  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #43e97b;">
+  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #155799;">
     <div style="font-size: 2em; margin-bottom: 15px;">💡</div>
     <h3 style="margin-bottom: 15px;">有更好的建议？</h3>
     <p>如果你有更好的内容建议或改进方案，欢迎提交 Pull Request</p>
   </div>
-  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #f5576c;">
+  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #1e6bb8;">
     <div style="font-size: 2em; margin-bottom: 15px;">🌟</div>
     <h3 style="margin-bottom: 15px;">想贡献内容？</h3>
     <p>欢迎贡献新的文章、案例或翻译，让我们一起完善教程</p>
@@ -236,8 +236,8 @@ features:
 <div style="text-align: center; margin: 60px 0;">
   <div style="font-size: 4em; margin-bottom: 20px;">🚀</div>
   <h2 style="font-size: 2em; margin-bottom: 20px;">准备好开始你的 AI 编程之旅了吗？</h2>
-  <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">207 篇精选文章等你来探索</p>
-  <a href="/zh/articles/001_1.1 Claude Code是什么" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);">
+  <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">212+ 篇精选文章等你来探索</p>
+  <a href="/zh/articles/001_1.1 Claude Code是什么" style="display: inline-block; background: linear-gradient(120deg, #155799, #159957); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(21, 89, 153, 0.3);">
     🎓 立即开始学习
   </a>
 </div>
