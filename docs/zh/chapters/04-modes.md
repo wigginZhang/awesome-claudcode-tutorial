@@ -118,6 +118,18 @@ Claude: "完成！修复了 3 个测试用例"
 - 👀 无法看到每个步骤
 - 🚫 不适合生产环境的修改操作
 
+### 在 VS Code 插件中开启全自动模式
+
+如果你使用 VS Code 插件，可以通过 **cc-switch** 工具来开启全自动模式（即 `--dangerously-skip-permissions`）：
+
+1. 打开 cc-switch
+2. 勾选「**Allow Dangerously Skip Permissions**」
+3. 在下面的选项中，可以把全自动模式配置为**默认模式**
+
+开启后，Claude Code 在 VS Code 中可以自动运行命令，无需二次确认。
+
+> ⚠️ 全自动模式没有任何安全拦截，请仅在沙盒或测试项目中使用。详见上方「Auto Mode vs --dangerously-skip-permissions」对比表。
+
 ### 安全使用建议
 
 ```bash

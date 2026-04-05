@@ -7,6 +7,14 @@ Claude Code 需要授权才能：
 - 🔒 保护你的账户安全
 - 📊 跟踪使用情况（便于优化体验）
 
+## 🤔 Claude Code 和大模型的关系
+
+可以这样理解：**Claude Code 就像手机，大模型就像运营商**。
+
+你的手机可以选电信、联通、移动，都能打电话上网。同理，Claude Code 是一个工具，你可以在里面使用各种大模型 —— 你只需要为大模型付费。
+
+⚠️ **重要提示**：Claude 官方会直接封禁中国用户的账号，因此使用官方账号门槛很高。对于国内用户，推荐使用**中转 API 方案**（详见下方「中转方案配置」）。
+
 ## 🚀 首次登录流程
 
 ### 步骤 1: 启动 Claude Code
@@ -89,6 +97,24 @@ Claude Code 需要：
 ```bash
 claude config set provider <provider-name>
 ```
+
+### 中转方案配置（国内用户推荐）
+
+由于 Claude 官方封禁中国账号，国内用户推荐使用中转 API。中转方案的效果与官方 API 一致，只是通过第三方代理转发请求。
+
+**配置方法：**
+
+```bash
+# 方式一：设置环境变量
+export ANTHROPIC_BASE_URL="https://your-relay-api.com/v1"
+export ANTHROPIC_API_KEY="your-api-key"
+
+# 方式二：通过 claude config 设置
+claude config set api_key your-api-key
+claude config set apiUrl https://your-relay-api.com
+```
+
+> 💡 也可以使用 [cc-switch](./01-installation.md#-cc-switch一键配置工具) 图形化工具来配置，更加方便。
 
 ## 🌐 不同环境的授权
 
