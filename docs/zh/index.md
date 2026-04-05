@@ -263,7 +263,7 @@ features:
 <div style="text-align: center; margin: 60px 0;">
   <div style="font-size: 4em; margin-bottom: 20px;">🚀</div>
   <h2 style="font-size: 2em; margin-bottom: 20px;">准备好开始你的 AI 编程之旅了吗？</h2>
-  <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">29 个课程章节 + 212+ 篇精选文章，两��方式任你选择</p>
+  <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">29 个课程章节 + 212+ 篇精选文章，两种方式任你选择</p>
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
     <a href="/zh/chapters/" style="display: inline-block; background: linear-gradient(120deg, #159957, #38f9d7); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.2em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(21, 153, 87, 0.3);">
       🎓 课程式学习

@@ -424,7 +424,7 @@ Reviewer Agent:
 
 ### Git Worktrees 作为并行基础设施
 
-Agent Teams 通常配合 Git Worktrees 使用，确保每个 Agent 在独立的���码副本中工作：
+Agent Teams 通常配合 Git Worktrees 使用，确保每个 Agent 在独立的代码副本中工作：
 
 ```
 my-project/                ← 主分支
