@@ -158,3 +158,8 @@ claude auth login --console
 
 - [官方安装文档](https://code.claude.com/docs/zh-CN/quickstart)
 - [B站视频教程](https://www.bilibili.com/video/BV1KzYQzWEPx/)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

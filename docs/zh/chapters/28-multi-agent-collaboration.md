@@ -606,3 +606,8 @@ Step 5: 审查和合并
 - [多 Agent 协作官方文档](https://code.claude.com/docs/zh-CN/multi-agent)
 - [Git Worktree 指南](https://git-scm.com/docs/git-worktree)
 - [Tmux 使用教程](https://github.com/tmux/tmux/wiki)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

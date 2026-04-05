@@ -457,3 +457,8 @@ export CLAUDE_DEFAULT_MODE="auto"
 
 - [权限模式官方文档](https://code.claude.com/docs/zh-CN/permissions)
 - [最佳实践指南](https://code.claude.com/docs/zh-CN/workflows)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

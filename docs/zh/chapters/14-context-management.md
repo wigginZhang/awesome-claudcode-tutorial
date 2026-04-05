@@ -492,3 +492,8 @@ A: 不会，压缩只会：
 
 - [上下文管理文档](https://code.claude.com/docs/zh-CN/context)
 - [性能优化指南](https://code.claude.com/docs/zh-CN/performance)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

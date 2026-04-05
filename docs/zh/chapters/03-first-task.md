@@ -230,3 +230,8 @@ claude --plan-mode
 
 - [官方快速入门](https://code.claude.com/docs/zh-CN/quickstart)
 - [常见工作流](https://code.claude.com/docs/zh-CN/workflows)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

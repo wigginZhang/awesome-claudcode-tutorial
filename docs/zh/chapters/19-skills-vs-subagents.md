@@ -477,3 +477,8 @@ SubAgent:
 
 - [Skills vs SubAgent 指南](https://code.claude.com/docs/zh-CN/skills-vs-subagents)
 - [最佳实践](https://code.claude.com/docs/zh-CN/best-practices)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

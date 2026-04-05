@@ -649,3 +649,8 @@ await server.connect(transport);
 - [MCP 官方文档](https://modelcontextprotocol.io)
 - [MCP Server 仓库](https://github.com/modelcontextprotocol/servers)
 - [MCP SDK 文档](https://github.com/modelcontextprotocol/sdk)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

@@ -755,3 +755,8 @@ class PerformanceMonitor {
 - [OpenTelemetry 文档](https://opentelemetry.io/docs/)
 - [Prometheus 最佳实践](https://prometheus.io/docs/practices/)
 - [Grafana 仪表板](https://grafana.com/docs/grafana/latest/dashboards/)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

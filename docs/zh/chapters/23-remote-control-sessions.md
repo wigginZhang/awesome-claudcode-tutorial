@@ -582,3 +582,8 @@ Claude:
 - [远程控制指南](https://code.claude.com/docs/zh-CN/remote-control)
 - [会话管理](https://code.claude.com/docs/zh-CN/sessions)
 - [云同步](https://code.claude.com/docs/zh-CN/cloud-sync)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

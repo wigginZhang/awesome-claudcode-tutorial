@@ -626,3 +626,8 @@ git push origin v1.2.3
 - [企业部署指南](https://code.claude.com/docs/zh-CN/enterprise)
 - [安全最佳实践](https://code.claude.com/docs/zh-CN/security)
 - [合规性文档](https://code.claude.com/docs/zh-CN/compliance)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

@@ -164,3 +164,8 @@ claude config set api_key your-api-key-here
 
 - [官方认证文档](https://code.claude.com/docs/zh-CN/authentication)
 - [Claude 订阅页面](https://claude.ai/plans)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

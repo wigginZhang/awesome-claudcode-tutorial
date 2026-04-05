@@ -292,3 +292,8 @@ Claude: "首页加载时间 3.2 秒，主要瓶颈在于：
 
 - [Voice Mode 官方文档](https://code.claude.com/docs/zh-CN/voice-mode)
 - [语音输入最佳实践](https://code.claude.com/docs/zh-CN/best-practices#voice)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀

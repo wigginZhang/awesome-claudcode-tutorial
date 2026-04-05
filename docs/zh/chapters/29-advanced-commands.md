@@ -481,3 +481,8 @@ DELETE /api/users/:id → 删除用户
 - [Claude Code 命令参考](https://code.claude.com/docs/zh-CN/commands)
 - [非交互模式文档](https://code.claude.com/docs/zh-CN/pipeline)
 - [最佳实践指南](https://code.claude.com/docs/zh-CN/best-practices)
+
+
+---
+
+> 💡 **API 推荐**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/) - 一站式接入各种AI服务，注册即送0.2刀
