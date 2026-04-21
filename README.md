@@ -4,8 +4,8 @@
 
 [![在线阅读](https://img.shields.io/badge/在线阅读-立即访问-blue?logo=github)](https://awesome.claude-opus.top/zh/)
 [![文章数量](https://img.shields.io/badge/文章-212+篇-green.svg)](https://awesome.claude-opus.top/zh/)
-[![结构化章节](https://img.shields.io/badge/章节-29章-blue.svg)](https://github.com/xianyu110/awesome-claudcode-tutorial#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95)
-[![持续更新](https://img.shields.io/badge/状态-持续更新-orange.svg)](https://github.com/xianyu110/awesome-claudcode-tutorial)
+[![结构化章节](https://img.shields.io/badge/章节-29章-blue.svg)](https://github.com/wigginZhang/awesome-claudcode-tutorial#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95)
+[![持续更新](https://img.shields.io/badge/状态-持续更新-orange.svg)](https://github.com/wigginZhang/awesome-claudcode-tutorial)
 
 > ⭐ 如果这个项目对你有帮助，请给我们一个 Star！
 
@@ -196,7 +196,7 @@
 克隆仓库到本地：
 
 ```bash
-git clone https://github.com/xianyu110/awesome-claudcode-tutorial.git
+git clone https://github.com/wigginZhang/awesome-claudcode-tutorial.git
 cd awesome-claudcode-tutorial
 ```
 
