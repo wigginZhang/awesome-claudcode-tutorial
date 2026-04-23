@@ -30,20 +30,24 @@ export default defineConfig({
   // 主题配置
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'MaynorAI',
+    siteTitle: 'Claude Code 教程',
 
     // 导航栏
     nav: [
       { text: '首页', link: '/zh/' },
       { text: '课程章节', link: '/zh/chapters/' },
+      { text: '文章阅读', link: '/zh/articles/' },
       { text: 'GitHub', link: 'https://github.com/wigginZhang/awesome-claudcode-tutorial' }
     ],
 
     // 侧边栏 - 将由脚本自动生成
     sidebar: {
       '/zh/chapters/': generateChapterSidebar('zh'),
+      '/zh/articles/': generateSidebar('zh'),
       '/tw/chapters/': generateChapterSidebar('tw'),
-      '/en/chapters/': generateChapterSidebar('en')
+      '/tw/articles/': generateSidebar('tw'),
+      '/en/chapters/': generateChapterSidebar('en'),
+      '/en/articles/': generateSidebar('en')
     },
 
     // 社交链接
@@ -53,8 +57,8 @@ export default defineConfig({
 
     // 页脚
     footer: {
-      message: '基于 MIT 许可发布 | <a href="https://link3.cc/maynorai" target="_blank" rel="noopener noreferrer">永久导航</a>',
-      copyright: 'Copyright © 2024-present MaynorAI'
+      message: '基于 MIT 许可发布',
+      copyright: 'Copyright © 2024-present'
     },
 
     // 搜索配置
@@ -174,10 +178,12 @@ export default defineConfig({
         nav: [
           { text: '首頁', link: '/tw/' },
           { text: '課程章節', link: '/tw/chapters/' },
+          { text: '文章閱讀', link: '/tw/articles/' },
           { text: 'GitHub', link: 'https://github.com/wigginZhang/awesome-claudcode-tutorial' }
         ],
         sidebar: {
-          '/tw/chapters/': generateChapterSidebar('tw')
+          '/tw/chapters/': generateChapterSidebar('tw'),
+          '/tw/articles/': generateSidebar('tw')
         },
         editLink: {
           pattern: 'https://github.com/wigginZhang/awesome-claudcode-tutorial/edit/main/docs/:path',
@@ -208,10 +214,12 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Chapters', link: '/en/chapters/' },
+          { text: 'Articles', link: '/en/articles/' },
           { text: 'GitHub', link: 'https://github.com/wigginZhang/awesome-claudcode-tutorial' }
         ],
         sidebar: {
-          '/en/chapters/': generateChapterSidebar('en')
+          '/en/chapters/': generateChapterSidebar('en'),
+          '/en/articles/': generateSidebar('en')
         },
         editLink: {
           pattern: 'https://github.com/wigginZhang/awesome-claudcode-tutorial/edit/main/docs/:path',
