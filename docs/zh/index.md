@@ -67,27 +67,6 @@ features:
   </a>
 </div>
 
-<div style="background: linear-gradient(135deg, #155799 0%, #159957 100%); padding: 40px 20px; border-radius: 12px; margin: 60px 0; text-align: center;">
-  <h2 style="color: white; font-size: 2em; margin-bottom: 20px;">🎉 MaynorAI API 服务 - 国内可用，无需科学上网</h2>
-  <p style="color: rgba(255,255,255,0.95); font-size: 1.2em; margin-bottom: 30px;">为中国开发者提供稳定、高速的 Claude API 服务</p>
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px;">
-    <div style="background: rgba(255,255,255,0.2); padding: 20px 30px; border-radius: 8px; backdrop-filter: blur(10px);">
-      <div style="color: white; font-size: 2em; font-weight: bold;">🚀</div>
-      <div style="color: white; font-size: 1.1em; margin-top: 10px;">国内直连</div>
-    </div>
-    <div style="background: rgba(255,255,255,0.2); padding: 20px 30px; border-radius: 8px; backdrop-filter: blur(10px);">
-      <div style="color: white; font-size: 2em; font-weight: bold;">⚡</div>
-      <div style="color: white; font-size: 1.1em; margin-top: 10px;">极速响应</div>
-    </div>
-    <div style="background: rgba(255,255,255,0.2); padding: 20px 30px; border-radius: 8px; backdrop-filter: blur(10px);">
-      <div style="color: white; font-size: 2em; font-weight: bold;">💎</div>
-      <div style="color: white; font-size: 1.1em; margin-top: 10px;">稳定可靠</div>
-    </div>
-  </div>
-  <a href="https://apipro.maynor1024.live/" target="_blank" style="display: inline-block; background: white; color: #155799; padding: 15px 40px; border-radius: 25px; font-size: 1.1em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-    🔗 访问 MaynorAI API 服务
-  </a>
-</div>
 
 ## 📊 教程概览
 
