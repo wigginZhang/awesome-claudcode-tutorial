@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'Claude Code 完整中文教程 - AI编程助手学习指南',
 
   // 基础配置
-  base: '/', // 使用自定义域名时设置为根路径
+  base: '/awesome-claudcode-tutorial/', // 仓库路径
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
