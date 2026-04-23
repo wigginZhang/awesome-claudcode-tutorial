@@ -2,8 +2,8 @@
 
 > 📚 最全面的 Claude Code 中文教程 - 从零基础到企业级应用
 
-[![在线阅读](https://img.shields.io/badge/在线阅读-立即访问-blue?logo=github)](https://awesome.claude-opus.top/zh/)
-[![文章数量](https://img.shields.io/badge/文章-212+篇-green.svg)](https://awesome.claude-opus.top/zh/)
+[![在线阅读](https://img.shields.io/badge/在线阅读-立即访问-blue?logo=github)](https://wigginzhang.github.io/awesome-claudcode-tutorial/zh/)
+[![文章数量](https://img.shields.io/badge/文章-207篇-green.svg)](https://wigginzhang.github.io/awesome-claudcode-tutorial/zh/articles/)
 [![结构化章节](https://img.shields.io/badge/章节-29章-blue.svg)](https://github.com/wigginZhang/awesome-claudcode-tutorial#%E8%AF%BE%E7%A8%8B%E7%9B%AE%E5%BD%95)
 [![持续更新](https://img.shields.io/badge/状态-持续更新-orange.svg)](https://github.com/wigginZhang/awesome-claudcode-tutorial)
 
@@ -20,27 +20,7 @@
 
 ## 🚀 快速开始使用 Claude Code
 
-### 💡 无需科学上网，立即体验
-
-**🎉 特别推荐：使用 MaynorAI API 服务**
-
-> 🔗 **API 服务地址**：https://apipro.maynor1024.live/
-
-**支持的 AI 服务：**
-- ✅ **Claude Code** - Anthropic 官方编程助手（内置 Claude Opus 4.6）
-- ✅ **Claude Opus 4.6** - Anthropic 最新旗舰模型
-- ✅ **Claude Sonnet 4.6** - Anthropic 最佳编程模型
-- ✅ **GPT-5.4** - OpenAI 最新一代推理模型
-- ✅ **o3** - OpenAI 高级推理模型
-
-**服务优势：**
-- 🌐 **国内可用** - 无需科学上网，稳定访问
-- ⚡ **高速稳定** - 专线接入，响应迅速
-- 💰 **价格优惠** - 相比官方价格更实惠
-- 🔒 **安全可靠** - 企业级加密，数据安全
-- 📞 **技术支持** - 专业客服，快速响应
-
----
+请访问在线文档网站开始学习：https://wigginzhang.github.io/awesome-claudcode-tutorial/zh/
 
 ## 📚 学习方式选择
 
@@ -238,10 +218,6 @@ cd awesome-claudcode-tutorial
 - [Claude Code 国内使用指南](https://github.com/claude-code-chinese/claude-code-guide)
 - [B站实战教程](https://www.bilibili.com/video/BV1KzYQzWEPx/)
 
-### API 服务
-- **MaynorAI API服务**：https://apipro.maynor1024.live/ - 国内直连，稳定可靠
-- **MaynorAI导航**：https://link3.cc/maynorai
-
 ## ⭐ Star History
 
 如果这个教程对你有帮助，请给一个 Star 支持！⭐
@@ -251,7 +227,7 @@ cd awesome-claudcode-tutorial
 <div align="center">
   <h3>🎯 开始你的 Claude Code 学习之旅</h3>
   <p>
-    <a href="https://awesome.claude-opus.top/zh/">📖 在线阅读</a> •
+    <a href="https://wigginzhang.github.io/awesome-claudcode-tutorial/zh/">📖 在线阅读</a> •
     <a href="docs/zh/chapters/01-installation.md">📚 章节学习</a> •
     <a href="docs/zh/articles/">🔍 文章查阅</a>
   </p>
