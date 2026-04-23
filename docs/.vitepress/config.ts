@@ -163,10 +163,12 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/zh/' },
           { text: '课程章节', link: '/zh/chapters/' },
+          { text: '文章阅读', link: '/zh/articles/' },
           { text: 'GitHub', link: 'https://github.com/wigginZhang/awesome-claudcode-tutorial' }
         ],
         sidebar: {
-          '/zh/chapters/': generateChapterSidebar('zh')
+          '/zh/chapters/': generateChapterSidebar('zh'),
+          '/zh/articles/': generateSidebar('zh')
         }
       }
     },
