@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: brand
       text: 🎓 课程式学习（29章）
-      link: /zh/chapters/
+      link: /awesome-claude-code-tutorial/zh/chapters/
     - theme: alt
       text: 📖 文章式学习（212+篇）
-      link: /zh/articles/
+      link: /awesome-claude-code-tutorial/zh/articles/
     - theme: alt
       text: 🌐 English
-      link: /en/
+      link: /awesome-claude-code-tutorial/en/
 
 features:
   - icon: 🎓
@@ -41,7 +41,7 @@ features:
 ---
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin: 50px 0;">
-  <a href="/zh/chapters/" style="text-decoration: none;">
+  <a href="/awesome-claude-code-tutorial/zh/chapters/" style="text-decoration: none;">
     <div style="background: #f6f8fa; padding: 30px; border-radius: 12px; border: 2px solid #159957; transition: transform 0.2s, box-shadow 0.2s;">
       <div style="font-size: 2.5em; margin-bottom: 15px;">🎓</div>
       <h3 style="margin-bottom: 12px; color: #159957;">课程式学习</h3>
@@ -53,7 +53,7 @@ features:
       </div>
     </div>
   </a>
-  <a href="/zh/articles/" style="text-decoration: none;">
+  <a href="/awesome-claude-code-tutorial/zh/articles/" style="text-decoration: none;">
     <div style="background: #f6f8fa; padding: 30px; border-radius: 12px; border: 2px solid #155799; transition: transform 0.2s, box-shadow 0.2s;">
       <div style="font-size: 2.5em; margin-bottom: 15px;">📖</div>
       <h3 style="margin-bottom: 12px; color: #155799;">文章式学习</h3>
@@ -244,10 +244,10 @@ features:
   <h2 style="font-size: 2em; margin-bottom: 20px;">准备好开始你的 AI 编程之旅了吗？</h2>
   <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">29 个课程章节 + 212+ 篇精选文章，两种方式任你选择</p>
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-    <a href="/zh/chapters/" style="display: inline-block; background: linear-gradient(120deg, #159957, #38f9d7); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.2em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(21, 153, 87, 0.3);">
+    <a href="/awesome-claude-code-tutorial/zh/chapters/" style="display: inline-block; background: linear-gradient(120deg, #159957, #38f9d7); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.2em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(21, 153, 87, 0.3);">
       🎓 课程式学习
     </a>
-    <a href="/zh/articles/" style="display: inline-block; background: linear-gradient(120deg, #155799, #1e6bb8); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.2em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(21, 89, 153, 0.3);">
+    <a href="/awesome-claude-code-tutorial/zh/articles/" style="display: inline-block; background: linear-gradient(120deg, #155799, #1e6bb8); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.2em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(21, 89, 153, 0.3);">
       📖 文章式学习
     </a>
   </div>
